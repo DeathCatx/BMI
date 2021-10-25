@@ -104,7 +104,7 @@ class _CalculateState extends State<Calculate> {
                             Icon(Icons.height),
                             SizedBox(width: 10,),
                             Text(
-                              'Height',
+                              'Height(cm)',
                               style: TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.w400,
@@ -160,7 +160,7 @@ class _CalculateState extends State<Calculate> {
                               Icon(Icons.monitor_weight),
                               SizedBox(width: 10,),
                               Text(
-                                'Weight',
+                                'Weight(kg)',
                                 style: TextStyle(
                                   fontSize: 20,
                                   fontWeight: FontWeight.w400,
