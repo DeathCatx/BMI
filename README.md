@@ -1,16 +1,30 @@
-# bmi
+# BMI Calculator
 
-BMI Calculator
+**BMI Calculator** is a Body Mass Index(BMI) calculator app developed with [Flutter](https://flutter.dev/) and [Firebase](https://firebase.google.com/).
 
-## Getting Started
+## ❤️ Features
+* **Account Binded** - The calculated BMI will be recorded and bound to account for historical data observation.
+* **Charts** - All of the recorded data can be presented in historical charts.
+* **Health Advices** - Get health advices through the calculated BMI.
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Installation
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1. Make sure you have [Flutter](https://flutter.dev/docs/get-started/install) installed.
+2. Clone the repo: ```git clone https://github.com/DeathCatx/BMI.git```
+3. Run the following command: ```flutter pub get```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔌 Plugins used
+* [firebase_core](https://pub.dev/packages/firebase_core)
+* [firebase_auth](https://pub.dev/packages/firebase_auth)
+* [firebase_database](https://pub.dev/packages/firebase_database)
+* [charts_flutter](https://pub.dev/packages/charts_flutter)
+
+## 📝 License
+
+This project is [MIT](https://github.com/DeathCatx/BMI/blob/main/LICENSE) licensed.
+
+## 🤝 Credits
+
+Login screen adapted from [Brutuski's Flutter Login Page Demo](https://github.com/Brutuski/flutter-login-demo)
