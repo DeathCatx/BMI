@@ -8,10 +8,14 @@
 * **Health Advices** - Get health advices through the calculated BMI.
 
 ## 📱 Screenshots
-![Login](https://github.com/DeathCatx/BMI/blob/main/README.assets/Login.png?raw=true)
-![Calculate BMI](https://github.com/DeathCatx/BMI/blob/main/README.assets/Calculate_BMI.png?raw=true)
-![Charts](https://github.com/DeathCatx/BMI/blob/main/README.assets/Charts.png?raw=true)
-![Advices](https://github.com/DeathCatx/BMI/blob/main/README.assets/Advice.png?raw=true)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/DeathCatx/BMI/main/README.assets/Login.png" width="270">
+    <img src="https://raw.githubusercontent.com/DeathCatx/BMI/main/README.assets/Calculate_BMI.png" width="270">
+</p>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/DeathCatx/BMI/main/README.assets/Charts.png" width="270">
+    <img src="https://raw.githubusercontent.com/DeathCatx/BMI/main/README.assets/Advice.png" width="270">
+</p>
 
 ## 🛠 Installation
 
