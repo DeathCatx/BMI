@@ -81,6 +81,7 @@ class _LoginsState extends State<Logins> {
           ),
           Positioned(
               left: 40,
+              right: 40,
               top: 129,
               child: SizedBox(
                 width: 310,
@@ -108,6 +109,7 @@ class _LoginsState extends State<Logins> {
           ),
           Positioned(
               left: 40,
+              right: 40,
               top: 229,
               child: SizedBox(
                 width: 310,
@@ -124,28 +126,6 @@ class _LoginsState extends State<Logins> {
                   ),
                 ),
               )),
-          /*const Positioned(
-              right: 60,
-              top: 296,
-              child: Text(
-                'Forgot Password',
-                style: TextStyle(
-                    color: forgotPasswordText,
-                    fontSize: 16,
-                    fontFamily: 'Poppins-Medium',
-                    fontWeight: FontWeight.w600),
-              )),
-          const Positioned(
-              left: 87,
-              top: 375,
-              child: Text(
-                'Remember Me',
-                style: TextStyle(
-                    color: forgotPasswordText,
-                    fontSize: 16,
-                    fontFamily: 'Poppins-Medium',
-                    fontWeight: FontWeight.w500),
-              )),*/
           Positioned(
               top: 320,
               right: 60,
@@ -175,6 +155,7 @@ class _LoginsState extends State<Logins> {
           Positioned(
               top: 320,
               left: 50,
+              right: MediaQuery.of(context).size.width/2,
               child: SizedBox(
                 width: 170,
                 height: 35,

@@ -47,74 +47,12 @@ class _LoginState extends State<Login> {
                 color: Color.fromRGBO(211, 228, 205, 1),
               ),
             ),
-            Positioned(top: 260, right: 0, bottom: 0, child: LayerOne()),
-            Positioned(top: 300, right: 0, bottom: 28, child: LayerTwo()),
-            Positioned(top: 270, right: 0, bottom: 10, child: Logins()),
-            /*Positioned(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    TextField(
-                      onChanged: (value){
-                        _email = value;
-                      },
-                      decoration: const InputDecoration(
-                          hintText: "Email"
-                      ),
-                    ),
-                    TextField(
-                      obscureText: true,
-                      onChanged: (value){
-                        _password = value;
-                      },
-                      decoration: const InputDecoration(
-                          hintText: "Password"
-                      ),
-                    ),
-                  ],
-                ),
-            ),*/
+            Positioned(top: 260, left: 0, right: 0, bottom: 0, child: LayerOne()),
+            Positioned(top: 300, left: 0, right: 0, bottom: 28, child: LayerTwo()),
+            Positioned(top: 270, left: 0, right: 0, bottom: 10, child: Logins()),
           ]
         )
       )
-      /*body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            TextField(
-              onChanged: (value){
-                _email = value;
-              },
-              decoration: const InputDecoration(
-                hintText: "Email"
-              ),
-            ),
-            TextField(
-              obscureText: true,
-              onChanged: (value){
-                _password = value;
-              },
-              decoration: const InputDecoration(
-                hintText: "Password"
-              ),
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                MaterialButton(
-                  onPressed: _loginUser,
-                  child: const Text("Login"),
-                ),
-                MaterialButton(
-                  onPressed: _createUser,
-                  child: const Text("Create New Account"),
-                ),
-              ],
-            )
-          ]
-        ),
-      )*/
     );
   }
 }
