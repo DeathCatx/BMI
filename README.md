@@ -19,9 +19,8 @@
 
 ## 🛠 Installation
 
-1. Make sure you have [Flutter](https://flutter.dev/docs/get-started/install) installed.
-2. Clone the repo: ```git clone https://github.com/DeathCatx/BMI.git```
-3. Run the following command: ```flutter pub get```
+For normal user please check out the [Usage Manual](https://github.com/DeathCatx/BMI/wiki/Usage-Manual).
+Whereas developers please check out the [Development Installation](https://github.com/DeathCatx/BMI/wiki/Development-Installation).
 
 ## 🔌 Plugins used
 * [firebase_core](https://pub.dev/packages/firebase_core)
